@@ -60,10 +60,10 @@ Study on avl and VEB trees on Kruskal algorithm
 3 Results
     
     VEB Tree
-    ![](images/veb.png)
+   ![](images/veb.png)
     
     AVL Tree
-    ![](images/avl.png)
+   ![](images/avl.png)
     
 4 Conclusion
    
