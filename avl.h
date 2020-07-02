@@ -1,4 +1,8 @@
-#include "MyHeaders.h"
+#include<bits/stdc++.h>
+#include<math.h>
+#define ll int32_t
+#include<iostream>
+#include <climits>
 #include<math.h>
 using namespace std;
 class AVL
