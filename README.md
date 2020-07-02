@@ -14,7 +14,7 @@ Study o avl and VEB trees on Kruskal algorithm
 1.1 Van Emde Boas Tree
 
     • Given a set S of elements such that the elements are taken from universe
-    {0, 1 ....u-1}. <br />
+    {0, 1 ....u-1}. 
     • Van Emde Boas tree (or vEB tree) supports insert(), delete, find(),
     successor() and predecessor() operations in O(Log Log u) time, and max() and
     min() in O(1) time
@@ -51,6 +51,7 @@ Study o avl and VEB trees on Kruskal algorithm
     where the total weight of all the edges in the tree is minimized.     
 
 2.2 Files 
+    
     1) extras and inpwt5 are input files  having predefined edge weights between two edges 
     2) avl.h and vEBTree.h are files for creating respectives trees functions and defining them.
     3) vEBimp.cpp is created for understanding the working of vEBtree with the help of user input
@@ -59,16 +60,16 @@ Study o avl and VEB trees on Kruskal algorithm
         g++ Kruskal.cpp
         
 3 Conclusion
-
-  1) The weights lied between the range (1,65536], consequently we fixed the universe
+   
+    1) The weights lied between the range (1,65536], consequently we fixed the universe
      size of VEB tree to be 65536 .
-  2) We can see that for the initial values, the AVL tree outperforms the VEB tree. The
+    2) We can see that for the initial values, the AVL tree outperforms the VEB tree. The
      reason for this are the constants that are associated with the VEB tree, which has
      a fixed structure, unlike the dynamically changing AVL tree.
-  3) For higher values, the VEB tree starts to outperform the AVL tree as the O(log log
+    3) For higher values, the VEB tree starts to outperform the AVL tree as the O(log log
      u)(u being universe size) factor of vEB tree becomes significantly smaller than the
      O(log n) (n being the number of edges in tree) of the AVL tree.
-  4) The increase in performance is not very pronounced at the given range. However
+    4) The increase in performance is not very pronounced at the given range. However
      following the same trend, the performance of vEB tree should be considerably
      better than the AVL tree at higher number of edges and the weight range.
 
