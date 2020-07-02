@@ -1,5 +1,5 @@
 # Kruskal-Implementation-using-avl-and-VEB-trees
-Study o avl and VEB trees on Kruskal algorithm
+Study on avl and VEB trees on Kruskal algorithm
 
 
 1 Introduction
